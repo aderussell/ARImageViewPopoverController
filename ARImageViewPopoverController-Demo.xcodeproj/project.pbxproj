@@ -16,22 +16,11 @@
 		AB1D45071999531900D58337 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB1D45051999531900D58337 /* Main.storyboard */; };
 		AB1D450A1999531900D58337 /* ARViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB1D45091999531900D58337 /* ARViewController.m */; };
 		AB1D450C1999531900D58337 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB1D450B1999531900D58337 /* Images.xcassets */; };
-		AB1D45131999531900D58337 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB1D45121999531900D58337 /* XCTest.framework */; };
-		AB1D45141999531900D58337 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB1D44F31999531900D58337 /* Foundation.framework */; };
-		AB1D45151999531900D58337 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB1D44F71999531900D58337 /* UIKit.framework */; };
-		AB1D451D1999531900D58337 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AB1D451B1999531900D58337 /* InfoPlist.strings */; };
-		AB1D451F1999531900D58337 /* ARImageViewPopoverController_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB1D451E1999531900D58337 /* ARImageViewPopoverController_DemoTests.m */; };
+		AB1D452B199954D400D58337 /* ARImageViewPopoverController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB1D452A199954D400D58337 /* ARImageViewPopoverController.m */; };
+		ABC60A0D199E91E200F8DAE4 /* demo image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABC60A0C199E91E200F8DAE4 /* demo image.jpg */; };
+		ABC60A10199FB68100F8DAE4 /* demo image 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABC60A0E199FB68100F8DAE4 /* demo image 3.jpg */; };
+		ABC60A11199FB68100F8DAE4 /* demo image 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABC60A0F199FB68100F8DAE4 /* demo image 2.jpg */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		AB1D45161999531900D58337 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = AB1D44E81999531900D58337 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AB1D44EF1999531900D58337;
-			remoteInfo = "ARImageViewPopoverController-Demo";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		AB1D44F01999531900D58337 /* ARImageViewPopoverController-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ARImageViewPopoverController-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -48,11 +37,11 @@
 		AB1D45081999531900D58337 /* ARViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARViewController.h; sourceTree = "<group>"; };
 		AB1D45091999531900D58337 /* ARViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARViewController.m; sourceTree = "<group>"; };
 		AB1D450B1999531900D58337 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		AB1D45111999531900D58337 /* ARImageViewPopoverController-DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ARImageViewPopoverController-DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AB1D45121999531900D58337 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		AB1D451A1999531900D58337 /* ARImageViewPopoverController-DemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ARImageViewPopoverController-DemoTests-Info.plist"; sourceTree = "<group>"; };
-		AB1D451C1999531900D58337 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		AB1D451E1999531900D58337 /* ARImageViewPopoverController_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARImageViewPopoverController_DemoTests.m; sourceTree = "<group>"; };
+		AB1D4529199954D400D58337 /* ARImageViewPopoverController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ARImageViewPopoverController.h; path = ARImageViewPopoverController/ARImageViewPopoverController.h; sourceTree = "<group>"; };
+		AB1D452A199954D400D58337 /* ARImageViewPopoverController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ARImageViewPopoverController.m; path = ARImageViewPopoverController/ARImageViewPopoverController.m; sourceTree = "<group>"; };
+		ABC60A0C199E91E200F8DAE4 /* demo image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "demo image.jpg"; sourceTree = "<group>"; };
+		ABC60A0E199FB68100F8DAE4 /* demo image 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "demo image 3.jpg"; sourceTree = "<group>"; };
+		ABC60A0F199FB68100F8DAE4 /* demo image 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "demo image 2.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,24 +55,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AB1D450E1999531900D58337 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AB1D45131999531900D58337 /* XCTest.framework in Frameworks */,
-				AB1D45151999531900D58337 /* UIKit.framework in Frameworks */,
-				AB1D45141999531900D58337 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		AB1D44E71999531900D58337 = {
 			isa = PBXGroup;
 			children = (
+				AB1D45281999533C00D58337 /* ARImageViewPopoverController */,
 				AB1D44F91999531900D58337 /* ARImageViewPopoverController-Demo */,
-				AB1D45181999531900D58337 /* ARImageViewPopoverController-DemoTests */,
 				AB1D44F21999531900D58337 /* Frameworks */,
 				AB1D44F11999531900D58337 /* Products */,
 			);
@@ -93,7 +72,6 @@
 			isa = PBXGroup;
 			children = (
 				AB1D44F01999531900D58337 /* ARImageViewPopoverController-Demo.app */,
-				AB1D45111999531900D58337 /* ARImageViewPopoverController-DemoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -104,7 +82,6 @@
 				AB1D44F31999531900D58337 /* Foundation.framework */,
 				AB1D44F51999531900D58337 /* CoreGraphics.framework */,
 				AB1D44F71999531900D58337 /* UIKit.framework */,
-				AB1D45121999531900D58337 /* XCTest.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -112,6 +89,7 @@
 		AB1D44F91999531900D58337 /* ARImageViewPopoverController-Demo */ = {
 			isa = PBXGroup;
 			children = (
+				ABC60A12199FB6F100F8DAE4 /* Demo Images */,
 				AB1D45021999531900D58337 /* ARAppDelegate.h */,
 				AB1D45031999531900D58337 /* ARAppDelegate.m */,
 				AB1D45051999531900D58337 /* Main.storyboard */,
@@ -134,22 +112,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		AB1D45181999531900D58337 /* ARImageViewPopoverController-DemoTests */ = {
+		AB1D45281999533C00D58337 /* ARImageViewPopoverController */ = {
 			isa = PBXGroup;
 			children = (
-				AB1D451E1999531900D58337 /* ARImageViewPopoverController_DemoTests.m */,
-				AB1D45191999531900D58337 /* Supporting Files */,
+				AB1D4529199954D400D58337 /* ARImageViewPopoverController.h */,
+				AB1D452A199954D400D58337 /* ARImageViewPopoverController.m */,
 			);
-			path = "ARImageViewPopoverController-DemoTests";
+			name = ARImageViewPopoverController;
 			sourceTree = "<group>";
 		};
-		AB1D45191999531900D58337 /* Supporting Files */ = {
+		ABC60A12199FB6F100F8DAE4 /* Demo Images */ = {
 			isa = PBXGroup;
 			children = (
-				AB1D451A1999531900D58337 /* ARImageViewPopoverController-DemoTests-Info.plist */,
-				AB1D451B1999531900D58337 /* InfoPlist.strings */,
+				ABC60A0C199E91E200F8DAE4 /* demo image.jpg */,
+				ABC60A0F199FB68100F8DAE4 /* demo image 2.jpg */,
+				ABC60A0E199FB68100F8DAE4 /* demo image 3.jpg */,
 			);
-			name = "Supporting Files";
+			name = "Demo Images";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -172,24 +151,6 @@
 			productReference = AB1D44F01999531900D58337 /* ARImageViewPopoverController-Demo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		AB1D45101999531900D58337 /* ARImageViewPopoverController-DemoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AB1D45251999531900D58337 /* Build configuration list for PBXNativeTarget "ARImageViewPopoverController-DemoTests" */;
-			buildPhases = (
-				AB1D450D1999531900D58337 /* Sources */,
-				AB1D450E1999531900D58337 /* Frameworks */,
-				AB1D450F1999531900D58337 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				AB1D45171999531900D58337 /* PBXTargetDependency */,
-			);
-			name = "ARImageViewPopoverController-DemoTests";
-			productName = "ARImageViewPopoverController-DemoTests";
-			productReference = AB1D45111999531900D58337 /* ARImageViewPopoverController-DemoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -199,11 +160,6 @@
 				CLASSPREFIX = AR;
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Adrian Russell";
-				TargetAttributes = {
-					AB1D45101999531900D58337 = {
-						TestTargetID = AB1D44EF1999531900D58337;
-					};
-				};
 			};
 			buildConfigurationList = AB1D44EB1999531900D58337 /* Build configuration list for PBXProject "ARImageViewPopoverController-Demo" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -219,7 +175,6 @@
 			projectRoot = "";
 			targets = (
 				AB1D44EF1999531900D58337 /* ARImageViewPopoverController-Demo */,
-				AB1D45101999531900D58337 /* ARImageViewPopoverController-DemoTests */,
 			);
 		};
 /* End PBXProject section */
@@ -230,16 +185,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB1D450C1999531900D58337 /* Images.xcassets in Resources */,
+				ABC60A0D199E91E200F8DAE4 /* demo image.jpg in Resources */,
 				AB1D44FE1999531900D58337 /* InfoPlist.strings in Resources */,
 				AB1D45071999531900D58337 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AB1D450F1999531900D58337 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AB1D451D1999531900D58337 /* InfoPlist.strings in Resources */,
+				ABC60A10199FB68100F8DAE4 /* demo image 3.jpg in Resources */,
+				ABC60A11199FB68100F8DAE4 /* demo image 2.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,28 +201,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB1D45001999531900D58337 /* main.m in Sources */,
+				AB1D452B199954D400D58337 /* ARImageViewPopoverController.m in Sources */,
 				AB1D450A1999531900D58337 /* ARViewController.m in Sources */,
 				AB1D45041999531900D58337 /* ARAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AB1D450D1999531900D58337 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AB1D451F1999531900D58337 /* ARImageViewPopoverController_DemoTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		AB1D45171999531900D58337 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = AB1D44EF1999531900D58337 /* ARImageViewPopoverController-Demo */;
-			targetProxy = AB1D45161999531900D58337 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		AB1D44FC1999531900D58337 /* InfoPlist.strings */ = {
@@ -289,14 +224,6 @@
 				AB1D45061999531900D58337 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		AB1D451B1999531900D58337 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AB1D451C1999531900D58337 /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -334,7 +261,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
@@ -367,7 +294,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
 				VALIDATE_PRODUCT = YES;
@@ -400,46 +327,6 @@
 			};
 			name = Release;
 		};
-		AB1D45261999531900D58337 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ARImageViewPopoverController-Demo.app/ARImageViewPopoverController-Demo";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ARImageViewPopoverController-Demo/ARImageViewPopoverController-Demo-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "ARImageViewPopoverController-DemoTests/ARImageViewPopoverController-DemoTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		AB1D45271999531900D58337 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ARImageViewPopoverController-Demo.app/ARImageViewPopoverController-Demo";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ARImageViewPopoverController-Demo/ARImageViewPopoverController-Demo-Prefix.pch";
-				INFOPLIST_FILE = "ARImageViewPopoverController-DemoTests/ARImageViewPopoverController-DemoTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -459,14 +346,7 @@
 				AB1D45241999531900D58337 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		AB1D45251999531900D58337 /* Build configuration list for PBXNativeTarget "ARImageViewPopoverController-DemoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AB1D45261999531900D58337 /* Debug */,
-				AB1D45271999531900D58337 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
